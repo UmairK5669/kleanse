@@ -143,12 +143,12 @@ mapMarker = "images/marker.png"
 googleAnalyticsID = "" # Your ID
 # Contact Information
 mobile = "647-914-8990"
-email = "sameerk5669@gmail.com"
+email = "info@kleanse.ca"
 location = "Toronto, Ontario"
 # copyright
 copyright = "| Copyright &copy; 2024 [Kleanse](/) All Rights Reserved |"
 # Snipcart Credentials
-snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
+snipcartApiKey = ""
 currencySymbol = "$"
 
   # Preloader
