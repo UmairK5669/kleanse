@@ -1,0 +1,127 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "Kleanse: Where comfort meets cleanliness" # Discover Clean Comfort with Kleanse
+  content : "Whether it's a new construction, home renovation or a simple upgrade, Kleanse is the destination of choice for bathroom and kitchen projects. You'll find the best quality products at the best prices, and you'll find them all in one place."
+  image : "images/faucet-banner.png"
+  # button
+  button:
+    enable : true
+    label : "All Products"
+    link : "products/"
+  # demo video
+  video:
+    enable : false
+    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+########################## About ##############################
+about:
+  enable : true
+  title : "About Our Product"
+  content : "Crafted with the highest of quality and care, our products are designed to provide you with the best experience possible. Made with stainless steel on the outside and a copper core on the inside, our products are designed to last a lifetime."
+  image : "images/bidet-about.png"
+
+
+###################### Call to action ########################
+cta:
+  enable : true
+  title : "Multiple quantities discounted!"
+  content : "Available for limited time only. Purchase multiple quantites of our products and receive a heavy discount"
+  image : "images/gold-faucet-cta.png"
+  overlayImage : "images/cta-overlay.png"
+  button:
+    label : "All Products"
+    link : "products/"
+
+######################## raw material #######################
+material:
+  enable : false
+  title : "Ingredients Of Our Products"
+  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dol."
+  materialItem:
+    # material item loop
+    - title : "Matcha Seeds"
+      image : "images/material/material-1.png"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      
+    # material item loop
+    - title : "Aloe Vera"
+      image : "images/material/material-2.png"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      
+    # material item loop
+    - title : "Turmeric"
+      image : "images/material/material-3.png"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      
+    # material item loop
+    - title : "Tulshi leaf"
+      image : "images/material/material-4.png"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+
+########################### Advantage #########################
+advantage:
+  enable : false
+  title : "Advantages Of Using <br> Our Product"
+  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  image : "images/advantage.png"
+  advantageList:
+    # advantage list loop
+    - listItem : "Extremely lightweight"
+    - listItem : "Excellent breathability"
+    - listItem : "Can increase Cell activation"
+    - listItem : "Glowing Skin In 7 Days"
+    - listItem : "Increasing Glow Of Face"
+    - listItem : "More Beautiful Face Skin"
+
+
+######################## Promo Video ##########################
+video:
+  enable : false
+  title : "How To Use This Product?"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
+  videoThumb : "images/video-thumb.jpg"
+  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+
+######################## Products #############################
+products:
+  enable : true
+  title : "Products List"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : true
+  title : "What People Are Saying <br> About Our Product"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Angelo Perara"
+      image : "images/clients/woman-placeholder.jpeg" # size 100px*100px
+      designation : ""
+      content : "Excellent service after purchasing, and love their products. Recommended to all my friends and family as well!"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    # - name : "Riya Ventila"
+      # image : "images/clients/man-placeholder.jpeg" # size 100px*100px
+      # designation : ""
+      # content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      # rating : "three" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Nitin Thakur"
+      image : "images/clients/man-placeholder.jpeg" # size 100px*100px
+      designation : ""
+      content : "Finally, a faucet that blends style with functionality – Kleanse delivers beyond expectations!"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Amandeep Singh"
+      image : "images/clients/man-placeholder.jpeg" # size 100px*100px
+      designation : ""
+      content : "Never knew a bidet could make such a difference until I tried Kleanse, simply life-changing!"
+      rating : "five" # rating star, one to five
