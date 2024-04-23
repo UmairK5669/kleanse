@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://umairk5669.github.io/kleanse/"
+baseURL = "https://kleanse.ca/"
 languageCode = "en"
 title = "Kleanse | Cleaner & Better"
 theme = "hargo-hugo"
