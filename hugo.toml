@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://www.kleanse.ca/"
+baseURL = "https://umairk5669.github.io/kleanse"
 languageCode = "en"
 title = "Kleanse | Cleaner & Better"
 theme = "hargo-hugo"
@@ -148,7 +148,7 @@ location = "Toronto, Ontario"
 # copyright
 copyright = "| Copyright &copy; 2024 [Kleanse](/) All Rights Reserved |"
 # Snipcart Credentials
-snipcartApiKey = ""
+snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
 currencySymbol = "$"
 
   # Preloader

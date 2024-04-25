@@ -12,9 +12,9 @@
   <meta name="theme-name" content="hargo-hugo" />
 
   {{ "<!-- Plugins -->" | safeHTML }}
-  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="/plugins/slick/slick.css">
-  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  {{ range site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .link | absURL }}">
+  {{ end }}
 
   {{ with site.Params.snipcartApiKey }}
   {{ "<!-- Snipcart -->" | safeHTML }}
@@ -26,8 +26,8 @@
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
-  <link rel="stylesheet" href="/scss/style.min.css" media="screen">
-
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+  
   {{ "<!-- Favicon -->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
